@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LYMG.SqlSugar", "LYMG.SqlSu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LYMG.SqlSugar.Test", "LYMG.SqlSugar.Test\LYMG.SqlSugar.Test.csproj", "{4C48A860-F7A9-4360-9475-5221A29372F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LYMG.SqlDB", "LYMG.SqlDB\LYMG.SqlDB.csproj", "{664E4EE1-A954-4B75-87E9-37126D00146A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4C48A860-F7A9-4360-9475-5221A29372F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C48A860-F7A9-4360-9475-5221A29372F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C48A860-F7A9-4360-9475-5221A29372F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664E4EE1-A954-4B75-87E9-37126D00146A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664E4EE1-A954-4B75-87E9-37126D00146A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664E4EE1-A954-4B75-87E9-37126D00146A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664E4EE1-A954-4B75-87E9-37126D00146A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
