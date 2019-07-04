@@ -7,9 +7,12 @@ using System.Threading.Tasks;
 namespace LYMG.SqlDB
 {
     /// <summary>
-    /// 数据库提供程序，一种数据库对应一个实例
+    /// 数据库提供程序，配置数据库访问方式，允许并行访问
     /// </summary>
     public abstract class DbProvider
     {
+        public virtual string ConnectionString { get; set; }
+        public TaskScheduler TaskScheduler;
+        public EntityMaintenance EntityMaintenance;
     }
 }

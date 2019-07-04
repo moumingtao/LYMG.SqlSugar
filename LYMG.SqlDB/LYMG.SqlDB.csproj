@@ -47,7 +47,6 @@
     <Compile Include="Entities\DbTableAttribute.cs" />
     <Compile Include="Abstract\EntityMaintenance.cs" />
     <Compile Include="DbClient.cs" />
-    <Compile Include="DbConfig.cs" />
     <Compile Include="DbProvider.cs" />
     <Compile Include="Entities\DbColumnInfo.cs" />
     <Compile Include="Entities\DbTableInfo.cs" />

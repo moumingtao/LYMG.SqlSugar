@@ -11,11 +11,11 @@ namespace LYMG.SqlDB
     /// </summary>
     public class DbClient : IDisposable
     {
-        public readonly DbConfig Config;
+        public readonly DbProvider Provider;
 
-        public DbClient(DbConfig config)
+        public DbClient(DbProvider provider)
         {
-            this.Config = config ?? throw new ArgumentNullException(nameof(config));
+            this.Provider = provider ?? throw new ArgumentNullException(nameof(provider));
         }
 
         public void Dispose()
