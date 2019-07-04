@@ -8,6 +8,11 @@ namespace LYMG.SqlDB.Abstract
 {
     public class CodeFirstBase
     {
+        public readonly DbClient Client;
+        public CodeFirstBase(DbClient client)
+        {
+            this.Client = client;
+        }
 
         public virtual void InitTables(Type entityType)
         {

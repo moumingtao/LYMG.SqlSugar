@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,11 +43,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\CodeFirstBase.cs" />
+    <Compile Include="Entities\DbColumnAttribute.cs" />
+    <Compile Include="Entities\DbTableAttribute.cs" />
     <Compile Include="Abstract\EntityMaintenance.cs" />
     <Compile Include="DbClient.cs" />
     <Compile Include="DbConfig.cs" />
     <Compile Include="DbProvider.cs" />
-    <Compile Include="Entities\EntityInfo.cs" />
+    <Compile Include="Entities\DbColumnInfo.cs" />
+    <Compile Include="Entities\DbTableInfo.cs" />
+    <Compile Include="Entities\IAttr.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

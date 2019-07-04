@@ -15,8 +15,6 @@ namespace LYMG.SqlDB
         public DbProvider Provider;
         public TaskScheduler TaskScheduler;
 
-        #region CodeFirst
-
-        #endregion
+        public EntityMaintenance EntityMaintenance;
     }
 }
