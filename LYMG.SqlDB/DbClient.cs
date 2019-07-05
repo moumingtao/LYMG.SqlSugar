@@ -15,6 +15,12 @@ namespace LYMG.SqlDB
     {
         public readonly DbProvider Provider;
         public IDbConnection Connection;
+        internal CommandType OldCommandType;
+        internal bool OldClearParameters;
+
+        internal DateTime BeforeTime = DateTime.MinValue;
+        internal DateTime AfterTime = DateTime.MinValue;
+        public TimeSpan SqlExecutionTime => AfterTime - BeforeTime;
 
         public DbClient(DbProvider provider)
         {
@@ -23,7 +29,7 @@ namespace LYMG.SqlDB
 
         public void Dispose()
         {
-
+            
         }
     }
 }
