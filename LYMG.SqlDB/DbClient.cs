@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +14,7 @@ namespace LYMG.SqlDB
     public class DbClient : IDisposable
     {
         public readonly DbProvider Provider;
+        public IDbConnection Connection;
 
         public DbClient(DbProvider provider)
         {

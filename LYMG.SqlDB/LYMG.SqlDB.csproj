@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\AdoBase.cs" />
     <Compile Include="Abstract\CodeFirstBase.cs" />
     <Compile Include="Entities\DbColumnAttribute.cs" />
     <Compile Include="Entities\DbTableAttribute.cs" />
